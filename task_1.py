@@ -10,5 +10,5 @@ def longest_word(file):
             longest_word = word
     print(longest_word)
 
-longest_word("./listy/lista05/words.txt")
+longest_word("words.txt")
     
