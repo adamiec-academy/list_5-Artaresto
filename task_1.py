@@ -5,7 +5,10 @@ def longest_word(file):
         data.append(unit.strip())
 
 
-    sorted(data, key = len)
-    print(data[-1])
+    for word in data:
+        if len(word) > len(data):
+            data = word
+    print(word)
+
     
 longest_word("words.txt")
