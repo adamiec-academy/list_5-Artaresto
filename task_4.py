@@ -1,4 +1,3 @@
-
 def reversed_words():
     data = []
 
