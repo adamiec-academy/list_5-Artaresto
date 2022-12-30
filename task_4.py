@@ -1,7 +1,7 @@
 def reversed_words():
     data = []
 
-    for unit in open("listy/lista05/words.txt", encoding="utf-8"):
+    for unit in open("words.txt", encoding="utf-8"):
         data.append(unit.strip())
     
     unique_words = set(data)
