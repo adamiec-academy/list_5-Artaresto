@@ -9,7 +9,7 @@ def reversed_words():
     for word in data:
         if word[::-1] in data and word not in results:
             reversed_word = word[::-1]
-            results.append((word, reversed_word))
+            results.append(tuple(sorted((word, reversed_word))))
     
     return results
 
