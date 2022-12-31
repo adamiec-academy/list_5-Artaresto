@@ -1,7 +1,7 @@
 def reversed_words():
     data = set()
 
-    for unit in open("listy/lista05/words.txt", encoding="utf-8"):
+    for unit in open("words.txt", encoding="utf-8"):
         data.add(unit.strip())
     
 
